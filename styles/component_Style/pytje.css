@@ -1,0 +1,21 @@
+.pytje {
+    width: 33%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.flexBox{
+    display: flex;
+}
+span{
+    padding-right: 10px;
+}
+h2{
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
