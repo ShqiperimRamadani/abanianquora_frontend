@@ -2,6 +2,7 @@ import '@styles/globals.css'
 // import { Children } from 'react/cjs/react.production.min'
 import React from 'react'
 import Pytje_Feed from './components/pytje_Feed'
+import Navbar from './components/navbar'
 
 export const metadata= {
     title: 'AlbanianQuora',
@@ -22,6 +23,7 @@ const RootLayout = () => {
             </main>
 
             <Pytje_Feed title='What is your favorite color?' numPergjigje={10} numVota={4} />
+            <Navbar/>
 
         </body>
     </html>
